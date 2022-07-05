@@ -12,7 +12,7 @@ function App() {
   const calculate = () => {
     //substract prev from current
     const result = current - prev;
-    setTotalBill(result * 7);
+    setTotalBill(result * rate);
   };
   return (
     <div className="App">
